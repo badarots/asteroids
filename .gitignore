@@ -23,6 +23,7 @@ migrations/
 # scripts de teste
 test*
 *.out
+velharia/
 
 # outros
 .directory

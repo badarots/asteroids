@@ -143,6 +143,7 @@ class Player(PhysicalObject):
         )
         new_bullet.velocity_x = bullet_vx
         new_bullet.velocity_y = bullet_vy
+        new_bullet.rotation = self.rotation
 
         self.new_objects.append(new_bullet)
 
